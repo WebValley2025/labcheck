@@ -2,7 +2,7 @@
 Let's get started!
 
 
-# Environment set up for WebValley2023 on Azure Lab
+# Environment set up for WebValley2025 on Azure Lab
 
 >## Are you a Windows user?
 >### Open Windows PowerShell with Administratory Rights
