@@ -44,7 +44,7 @@ for user in wv1 wv2 wv3 wv4 wv5; do
     sudo -u $user /home/$user/.venv/bin/pip install \
         --find-links https://girder.github.io/large_image_wheels \
         numpy pandas matplotlib seaborn scikit-learn scipy jupyterlab \
-        xarray cfgrib netCDF4 eccodes pysteps GDAL pyproj zarr
+        xarray cfgrib netCDF4 eccodes pysteps GDAL pyproj zarr cartopy xeofs torch
     # set virtualenv as default for the user
     echo "source /home/$user/.venv/bin/activate" >> /home/$user/.bashrc
     echo "export PATH=\"/home/$user/.venv/bin:\$PATH\"" >> /home/$user/.bashrc
